@@ -60,6 +60,9 @@ body {
   background-color: #e5e7eb;
   color: #1f2937;
 }
+.dropdown input[type="checkbox"] {
+  display: none;
+}
 @media (max-width: 768px) {
   .nav_list {
     flex-direction: column;
@@ -78,7 +81,7 @@ body {
     visibility: visible;
   }
 
-  .dropdown:focus-within .dropdown-menu {
+  .dropdown input:checked + label + .dropdown-menu {
     max-height: 500px;
   }
 }
