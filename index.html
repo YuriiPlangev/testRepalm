@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav_list">
+          <li class="nav_item"><a class="nav_link" href="#">Головна</a></li>
+          <li class="nav_item dropdown">
+            <a class="nav_link" href="#">Продукти</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-link" href="#">Ноутбуки</a></li>
+              <li><a class="dropdown-link" href="#">Телефони</a></li>
+              <li><a class="dropdown-link" href="#">Планшети</a></li>
+              <li><a class="dropdown-link" href="#">Аксесуари</a></li>
+            </ul>
+          </li>
+          <li class="nav_item dropdown">
+            <a class="nav_link" href="#">Послуги</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-link" href="#">Доставка</a></li>
+              <li><a class="dropdown-link" href="#">Гарантія</a></li>
+              <li><a class="dropdown-link" href="#">Технічна підтримка</a></li>
+            </ul>
+          </li>
+          <li class="nav_item"><a class="nav_link" href="#">Про нас</a></li>
+          <li class="nav_item"><a class="nav_link" href="#">Контакти</a></li>
+        </ul>
+      </nav>
+
+      <div class="cards">
+        <div class="card">
+          <img src="../assets/flower2.jpg" alt="product" class="card_img" />
+          <h2 class="card_title">Flowers</h2>
+          <p class="card_text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+          <div class="card_prices">
+            <span class="card_price">$99.99</span>
+            <span class="card_old_price">$149.99</span>
+          </div>
+          <div class="card_buttons">
+            <button class="card_button">Додати в кошик</button>
+            <button class="card_favorite">
+              <img src="../assets/heart.svg" height="20" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
